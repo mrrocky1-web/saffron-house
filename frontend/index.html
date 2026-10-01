@@ -511,17 +511,21 @@
   <script>
     // TODO: Replace this config with your actual Firebase Project config!
     const firebaseConfig = {
-      apiKey: "YOUR_API_KEY",
-      authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-      databaseURL: "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com",
-      projectId: "YOUR_PROJECT_ID",
-      storageBucket: "YOUR_PROJECT_ID.appspot.com",
-      messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-      appId: "YOUR_APP_ID"
+      apiKey: "AIzaSyB39TLwWDHTM2UCq8oGtYxS6yPMamJMxUA",
+      authDomain: "saffron-house-b377f.firebaseapp.com",
+      databaseURL: "https://saffron-house-b377f-default-rtdb.firebaseio.com",
+      projectId: "saffron-house-b377f",
+      storageBucket: "saffron-house-b377f.firebasestorage.app",
+      messagingSenderId: "47390885290",
+      appId: "1:47390885290:web:f7a5103fcaa20222c857d3",
     };
     
     if (!firebase.apps.length) {
       firebase.initializeApp(firebaseConfig);
+
+      // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
     }
   </script>
 </head>
