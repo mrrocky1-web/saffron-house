@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Saffron House | Authentic North west delhi may be delhi ,ghgdsgh</title>
-  <meta name="description" content="Saffron House — bihar , delhi 's finest North Indian dining experience." />
+  <title>Saffron House | Authentic North Indian Restaurant in delhiii</title>
+  <meta name="description" content="Saffron House — Delhi's finest North Indian dining experience." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet" />
@@ -126,7 +126,7 @@
     .dish-gallery-main img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;transition:opacity .4s ease}
     .dish-gallery-main img.hidden{opacity:0;pointer-events:none}
     .dish-gallery-main img.active{opacity:1}
-    .dish-no-photo{width:100%;height:100%;min-height:380px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:rgba(255,255,255,.3);gap:.75rem}
+    .dish-no-photo{width:100%;height:100%;min-height:380px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:rgba(255,255,255,.3);gap:1.25rem}
     .dish-no-photo i{font-size:3.5rem}
     .dish-no-photo p{font-size:.85rem}
     .dish-gallery-nav{position:absolute;bottom:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:linear-gradient(to top,rgba(0,0,0,.7),transparent)}
@@ -197,7 +197,7 @@
     /* GALLERY */
     #gallery{padding:var(--section-pad);background:var(--color-bg)}
     .gallery-header{text-align:center;margin-bottom:3rem}
-    .gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:220px;gap:.75rem}
+    .gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:220px;gap:1.25rem}
     .gallery-item{border-radius:var(--radius-sm);overflow:hidden;position:relative;cursor:pointer}
     .gallery-item:nth-child(1){grid-column:span 2;grid-row:span 2}
     .gallery-item:nth-child(5){grid-column:span 2}
@@ -233,7 +233,7 @@
     #location{padding:var(--section-pad);background:var(--color-white)}
     .location-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
     .map-placeholder{border-radius:var(--radius-lg);overflow:hidden;height:380px;background:#e8e0d5;position:relative}
-    .map-placeholder-inner{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;color:var(--color-muted);gap:.75rem}
+    .map-placeholder-inner{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;color:var(--color-muted);gap:1.25rem}
     .map-placeholder-inner i{font-size:3rem;color:var(--color-primary)}
     .location-info h2{margin-bottom:2rem}
     .info-blocks{display:flex;flex-direction:column;gap:1.5rem}
@@ -320,7 +320,7 @@
     .adm-sec-head{display:flex;align-items:center;justify-content:space-between;margin:1.5rem 0 .75rem;padding-bottom:.5rem;border-bottom:2px solid #e8e0d5}
     .adm-sec-head:first-child{margin-top:0}
     .adm-sec-head h3{font-family:var(--font-heading);font-size:1rem;color:var(--color-dark)}
-    .adm-item{background:#faf6f0;border:1px solid #e8e0d5;border-radius:8px;padding:.8rem 1rem;margin-bottom:.5rem;display:flex;align-items:center;gap:.75rem}
+    .adm-item{background:#faf6f0;border:1px solid #e8e0d5;border-radius:8px;padding:.8rem 1rem;margin-bottom:.5rem;display:flex;align-items:center;gap:1.25rem}
     .adm-item-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
     .adm-item-dot.veg{background:#2e7d32}.adm-item-dot.non-veg{background:#c62828}
     .adm-item-thumb{width:46px;height:46px;border-radius:6px;overflow:hidden;flex-shrink:0;background:#ede8e0;display:flex;align-items:center;justify-content:center}
@@ -511,7 +511,7 @@
   <script>
     // TODO: Replace this config with your actual Firebase Project config!
     const firebaseConfig = {
-      apiKey: "AIzaSyB39TLwWDHTM2UCq8oGtYxS6yPMamJMxUA",
+            apiKey: "AIzaSyB39TLwWDHTM2UCq8oGtYxS6yPMamJMxUA",
       authDomain: "saffron-house-b377f.firebaseapp.com",
       databaseURL: "https://saffron-house-b377f-default-rtdb.firebaseio.com",
       projectId: "saffron-house-b377f",
@@ -522,10 +522,6 @@
     
     if (!firebase.apps.length) {
       firebase.initializeApp(firebaseConfig);
-
-      // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
     }
   </script>
 </head>
@@ -752,12 +748,16 @@
   <section id="location">
     <div class="container">
       <div class="location-grid">
-        <div class="map-placeholder fade-in"><div class="map-placeholder-inner"><i class="fas fa-map-marker-alt"></i><strong>Interactive Map</strong><p>Replace with your Google Maps embed</p></div></div>
+        <div class="map-placeholder fade-in">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15082.903734066038!2d72.8222378!3d19.0664273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c91206d5ebbf%3A0xc66579b47e2cc45b!2sCarter%20Road%20Promenade!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="100%" style="border:0; border-radius:12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15082.903734066038!2d72.8222378!3d19.0664273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c91206d5ebbf%3A0xc66579b47e2cc45b!2sCarter%20Road%20Promenade!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="100%" style="border:0; border-radius:12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> -->
+        </div>
         <div class="location-info fade-in delay-2">
           <span class="section-tag">Visit Us</span>
           <h2 class="section-title">Find Saffron House</h2>
           <div class="info-blocks">
-            <div class="info-block"><div class="info-icon"><i class="fas fa-map-marker-alt"></i></div><div><h4>Address</h4><p id="infoAddress">42, Carter Road, Bandra West<br/>Mumbai, Maharashtra 400050</p></div></div>
+            <div class="info-block"><div class="info-icon"><i class="fas fa-map-marker-alt"></i></div><div><h4>Address</h4><p id="infoAddress">42, Carter Road, whyyy West<br/>Delhi, delhi 110025</p></div></div>
             <div class="info-block"><div class="info-icon"><i class="fas fa-phone"></i></div><div><h4>Reservations</h4><p><a href="#" id="infoPhone1">+91 98765 43210</a><br/><a href="#" id="infoPhone2">+91 22 2600 1234</a></p></div></div>
             <div class="info-block"><div class="info-icon"><i class="fas fa-envelope"></i></div><div><h4>Email</h4><p><a href="#" id="infoEmail">reservations@saffronhouse.in</a></p></div></div>
             <div class="info-block"><div class="info-icon"><i class="fas fa-clock"></i></div><div><h4>Opening Hours</h4><table class="hours-table"><tr><td>Mon – Thu</td><td>12:00 PM – 3:00 PM, 7:00 PM – 11:00 PM</td></tr><tr><td>Fri – Sat</td><td>12:00 PM – 3:30 PM, 7:00 PM – 11:30 PM</td></tr><tr><td>Sunday</td><td class="hours-open">11:00 AM – 11:30 PM (All Day)</td></tr></table></div></div>
@@ -824,6 +824,7 @@
           <button class="adm-tab active" data-adm-tab="menu">📋 Menu</button>
           <button class="adm-tab" data-adm-tab="carousel">🎠 Carousel</button>
           <button class="adm-tab" data-adm-tab="gallery">🖼️ Gallery</button>
+          <button class="adm-tab" data-adm-tab="bookings">?? Bookings</button>
           <button class="adm-tab" data-adm-tab="billing">🧾 Billing</button>
           <button class="adm-tab" data-adm-tab="reviews">⭐ Reviews</button>
           <button class="adm-tab" data-adm-tab="info">🏠 Info</button>
@@ -884,6 +885,12 @@
                 <label class="photo-upload-label" style="cursor:pointer"><i class="fas fa-upload"></i> Upload Photo<input type="file" accept="image/*" style="display:none" onchange="addGalleryByUpload(this)" /></label>
               </div>
             </div>
+          </div>
+
+          <!-- BOOKINGS TAB -->
+          <div class="adm-panel" id="adm-tab-bookings">
+            <div class="adm-sec-head" style="margin-top:0"><h3>?? Table Bookings</h3></div>
+            <div id="adminBookingsList" style="display:flex; flex-direction:column; gap:0.5rem;"></div>
           </div>
 
           <!-- BILLING TAB -->
@@ -1053,6 +1060,7 @@
         RDATA = data;
         if(!RDATA.menu.fastfood)RDATA.menu.fastfood=JSON.parse(JSON.stringify(DEFAULT_DATA.menu.fastfood));
         if(!RDATA.billingHistory)RDATA.billingHistory=[];
+        if(!RDATA.bookings)RDATA.bookings=[];
         if(!RDATA.reviews)RDATA.reviews=JSON.parse(JSON.stringify(DEFAULT_DATA.reviews));
       } else {
         RDATA = JSON.parse(JSON.stringify(DEFAULT_DATA));
@@ -1224,6 +1232,7 @@
       populateInfoForm();renderAdminMenu();renderAdminCarousel();renderAdminGallery();
       initBilling();
       renderAdminReviews();
+      renderAdminBookings();
     }else{err.style.display='block';document.getElementById('adminPwInput').value='';document.getElementById('adminPwInput').focus();}
   }
   function adminLogout(){adminLoggedIn=false;document.getElementById('adminPwScreen').style.display='flex';document.getElementById('adminPanelContent').style.display='none';document.getElementById('adminLogoutBtn').style.display='none';document.getElementById('adminPwInput').value='';document.getElementById('pwError').style.display='none';document.querySelectorAll('.adm-tab').forEach((t,i)=>t.classList.toggle('active',i===0));document.querySelectorAll('.adm-panel').forEach((p,i)=>p.classList.toggle('active',i===0));}
@@ -1258,7 +1267,7 @@
         html+=`<div class="adm-item" id="adm-item-${item.id}">
           <div class="adm-item-dot ${esc(item.type)}"></div>
           <div class="adm-item-thumb">${fp?`<img src="${esc(fp)}" alt="" />`:'<span class="no-img"><i class="fas fa-camera"></i></span>'}</div>
-          <div class="adm-item-info"><div class="adm-item-name">${esc(item.name)}</div><div class="adm-item-sub">${rupee(item.price)} · ${(item.photos||[]).length} photo(s)</div></div>
+          <div class="adm-item-info"><div class="adm-item-name">${esc(item.name)}</div><div class="adm-item-sub" style="margin-top:0.4rem;">${rupee(item.price)} &nbsp;|&nbsp; ${(item.photos||[]).length} photo(s)</div></div>
           <span class="adm-price-badge">${rupee(item.price)}</span>
           <div class="adm-actions">
             <button class="adm-btn adm-btn-edit" onclick="toggleEditForm('${item.id}','${cat}')"><i class="fas fa-pen"></i> Edit</button>
@@ -1692,7 +1701,28 @@
 
   /* RESERVATION FORM */
   document.getElementById('res-date').setAttribute('min',new Date().toISOString().split('T')[0]);
-  document.getElementById('reservationForm').addEventListener('submit',function(e){e.preventDefault();this.style.display='none';document.getElementById('formSuccess').style.display='block';});
+  document.getElementById('reservationForm').addEventListener('submit',function(e){
+    e.preventDefault();
+    const fd = new FormData(this);
+    const booking = {
+      id: 'bk_'+Date.now(),
+      name: fd.get('name'),
+      phone: fd.get('phone'),
+      date: fd.get('date'),
+      time: fd.get('time'),
+      guests: fd.get('guests'),
+      occasion: fd.get('occasion'),
+      requests: fd.get('requests'),
+      timestamp: Date.now(),
+      status: 'pending'
+    };
+    if(!RDATA.bookings) RDATA.bookings = [];
+    RDATA.bookings.push(booking);
+    saveData();
+    if(typeof renderAdminBookings === 'function') renderAdminBookings();
+    this.style.display='none';
+    document.getElementById('formSuccess').style.display='block';
+  });
 
   /* FADE-IN */
   const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting)entry.target.classList.add('visible');});},{threshold:0.12});
@@ -1768,6 +1798,7 @@
      saveData();
      renderReviews();
      if(adminLoggedIn) renderAdminReviews();
+      renderAdminBookings();
      closeReviewModal();
      this.reset();
      curRating = 5;
@@ -1807,12 +1838,78 @@
      saveData();
      renderReviews();
      renderAdminReviews();
+      renderAdminBookings();
      showToast('🗑️ Review deleted.');
   }
   
+  
+  /* ================================================================
+     ADMIN BOOKINGS
+     ================================================================ */
+  function renderAdminBookings() {
+    const list = document.getElementById('adminBookingsList');
+    if (!list) return;
+    if (!RDATA.bookings || !RDATA.bookings.length) {
+      list.innerHTML = '<div style="text-align:center; padding:2rem; color:#888;">No bookings found.</div>';
+      return;
+    }
+    const sorted = [...RDATA.bookings].sort((a,b) => b.timestamp - a.timestamp);
+    list.innerHTML = sorted.map(b => {
+      const d = new Date(b.timestamp);
+      const dateStr = d.toLocaleDateString('en-IN') + ' ' + d.toLocaleTimeString('en-IN', {hour:'2-digit',minute:'2-digit'});
+      const isCompleted = b.status === 'completed';
+      return `
+        <div class="bill-hist-card" style="opacity: ${isCompleted ? '0.7' : '1'};">
+          <div class="bill-hist-head">
+            <span class="bill-hist-id">Date: ${esc(b.date)} at ${esc(b.time)}</span>
+            <span class="bill-hist-date" style="color: ${isCompleted ? 'green' : 'orange'}">${esc(b.status.toUpperCase())}</span>
+          </div>
+          <div class="bill-hist-info">
+            <span>Name: ${esc(b.name)} | Phone: ${esc(b.phone)}</span>
+            <span>Guests: ${esc(b.guests)}</span>
+          </div>
+          <div style="font-size:0.85rem; color:#555; margin-bottom:0.5rem;">
+            Occasion: ${esc(b.occasion) || 'None'}<br>
+            Requests: ${esc(b.requests) || 'None'}<br>
+            Booked on: ${dateStr}
+          </div>
+          <div style="display:flex; gap:0.5rem;">
+            ${!isCompleted ? `<button class="adm-btn adm-btn-save" onclick="markBookingCompleted('${b.id}')"><i class="fas fa-check"></i> Mark Completed</button>` : ''}
+            <button class="adm-btn adm-btn-cancel" onclick="deleteBooking('${b.id}')"><i class="fas fa-trash"></i> Delete</button>
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  window.markBookingCompleted = function(id) {
+    if(!confirm('Mark this booking as completed?')) return;
+    const booking = RDATA.bookings.find(b => b.id === id);
+    if(booking) {
+      booking.status = 'completed';
+      saveData();
+      renderAdminBookings();
+      showToast('Booking marked completed.');
+    }
+  };
+
+  window.deleteBooking = function(id) {
+    if(!confirm('Delete this booking?')) return;
+    RDATA.bookings = RDATA.bookings.filter(b => b.id !== id);
+    saveData();
+    renderAdminBookings();
+    showToast('Booking deleted.');
+  };
+
   /* INIT */
+
   loadData();
   renderAll();
   </script>
 </body>
 </html>
+
+
+
+
+
