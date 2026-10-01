@@ -1,0 +1,344 @@
+{
+  "info": {
+    "name": "Saffron House",
+    "heroTag": "Est. 2008 — Mumbai, India",
+    "tagline": "Where every bite tells a royal story from the heart of North India.",
+    "yearsOfExcellence": "10+",
+    "chefName": "Chef Arjun Mehra",
+    "chefTitle": "Head Chef & Co-Founder · 20 yrs experience",
+    "phone1": "+91 98765 43210",
+    "phone2": "+91 22 2600 1234",
+    "email": "reservations@saffronhouse.in",
+    "address": "42, Carter Road, Bandra West\nMumbai, Maharashtra 400050",
+    "whatsapp": "919876543210",
+    "adminPassword": "admin123"
+  },
+  "menu": {
+    "starters": [
+      {
+        "id": "s1",
+        "name": "Crispy Paneer Tikka",
+        "price": 320,
+        "desc": "Cottage cheese marinated in yoghurt and spices, chargrilled in our clay tandoor.",
+        "type": "veg",
+        "photos": [
+          "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80"
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "Murgh Malai Seekh",
+        "price": 390,
+        "desc": "Minced chicken kebab with cream, cashew paste, and fragrant cardamom.",
+        "type": "non-veg",
+        "photos": [
+          "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "Dahi Puri Shots",
+        "price": 200,
+        "desc": "Bite-sized crispy puris filled with spiced yoghurt, tamarind chutney, and sev.",
+        "type": "veg",
+        "photos": []
+      },
+      {
+        "id": "s4",
+        "name": "Lamb Chops Rogan",
+        "price": 550,
+        "desc": "Slow-braised Kashmiri lamb chops with robust rogan marinade and mint raita.",
+        "type": "non-veg",
+        "photos": [
+          "https://images.unsplash.com/photo-1555126634-323283e090fa?w=800&q=80"
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "Aloo Nazakat",
+        "price": 260,
+        "desc": "Stuffed potato shells with spiced paneer filling, shallow-fried to golden perfection.",
+        "type": "veg",
+        "photos": []
+      },
+      {
+        "id": "s6",
+        "name": "Prawn Koliwada",
+        "price": 480,
+        "desc": "Mumbai-style batter-fried prawns tossed with curry leaves and kokum chutney.",
+        "type": "non-veg",
+        "photos": []
+      }
+    ],
+    "mains": [
+      {
+        "id": "m1",
+        "name": "Dal Makhani",
+        "price": 380,
+        "desc": "Black lentils slow-cooked overnight with butter, cream, and a hint of fenugreek.",
+        "type": "veg",
+        "photos": [
+          "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=800&q=80"
+        ]
+      },
+      {
+        "id": "m2",
+        "name": "Dum Gosht Biryani",
+        "price": 650,
+        "desc": "Aged basmati layered with slow-cooked mutton, saffron milk, and caramelised onions.",
+        "type": "non-veg",
+        "photos": [
+          "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&q=80"
+        ]
+      },
+      {
+        "id": "m3",
+        "name": "Butter Chicken",
+        "price": 520,
+        "desc": "Tender tandoori chicken simmered in our signature tomato-butter-cream sauce.",
+        "type": "non-veg",
+        "photos": [
+          "https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=800&q=80"
+        ]
+      },
+      {
+        "id": "m4",
+        "name": "Shahi Paneer",
+        "price": 420,
+        "desc": "Royal cottage cheese in a cashew-onion-saffron gravy with gold leaf garnish.",
+        "type": "veg",
+        "photos": [
+          "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80"
+        ]
+      },
+      {
+        "id": "m5",
+        "name": "Raan-e-Mehra",
+        "price": 1100,
+        "desc": "Our signature whole leg of lamb marinated 24 hours, slow-roasted and served tableside.",
+        "type": "non-veg",
+        "photos": [
+          "https://images.unsplash.com/photo-1555126634-323283e090fa?w=800&q=80"
+        ]
+      },
+      {
+        "id": "m6",
+        "name": "Saag Aloo",
+        "price": 300,
+        "desc": "Mustard-leaf saag with spiced golden potatoes, finished with a ghee tempering.",
+        "type": "veg",
+        "photos": []
+      }
+    ],
+    "desserts": [
+      {
+        "id": "d1",
+        "name": "Gulab Jamun Soufflé",
+        "price": 280,
+        "desc": "A warm rose-water soufflé inspired by the classic mithai, served with rabri ice cream.",
+        "type": "veg",
+        "photos": []
+      },
+      {
+        "id": "d2",
+        "name": "Saffron Panna Cotta",
+        "price": 320,
+        "desc": "Italian-inspired panna cotta infused with Kashmiri saffron and pistachio brittle.",
+        "type": "veg",
+        "photos": []
+      },
+      {
+        "id": "d3",
+        "name": "Gajar Halwa Tart",
+        "price": 260,
+        "desc": "Slow-cooked carrot halwa in a buttery shortcrust shell with cardamom cream.",
+        "type": "veg",
+        "photos": []
+      },
+      {
+        "id": "d4",
+        "name": "Kulfi Falooda",
+        "price": 220,
+        "desc": "Traditional pistachio kulfi with rose milk, vermicelli, and basil seeds.",
+        "type": "veg",
+        "photos": []
+      }
+    ],
+    "drinks": [
+      {
+        "id": "dr1",
+        "name": "Royal Mango Lassi",
+        "price": 180,
+        "desc": "Thick Alphonso mango blended with chilled yoghurt and a pinch of cardamom.",
+        "type": "veg",
+        "photos": []
+      },
+      {
+        "id": "dr2",
+        "name": "Rose Sharbat",
+        "price": 150,
+        "desc": "Hand-crafted rose syrup with chilled water, dried rose petals, and lemon.",
+        "type": "veg",
+        "photos": []
+      },
+      {
+        "id": "dr3",
+        "name": "Masala Chai",
+        "price": 120,
+        "desc": "Ginger, cardamom, clove, and cinnamon brew with full-fat milk and jaggery.",
+        "type": "veg",
+        "photos": [
+          "https://images.unsplash.com/photo-1561336313-0bd5e0b27ec8?w=800&q=80",
+          "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80"
+        ]
+      },
+      {
+        "id": "dr4",
+        "name": "Thandai Fizz",
+        "price": 200,
+        "desc": "Chilled thandai (almonds, fennel, poppy seeds) topped with sparkling soda.",
+        "type": "veg",
+        "photos": []
+      }
+    ],
+    "fastfood": [
+      {
+        "id": "ff1",
+        "name": "Bombay Vada Pav Sliders",
+        "price": 180,
+        "desc": "Mini brioche buns filled with spicy potato fritters and dry garlic chutney.",
+        "type": "veg",
+        "photos": []
+      },
+      {
+        "id": "ff2",
+        "name": "Chicken Tikka Wrap",
+        "price": 250,
+        "desc": "Charcoal-grilled chicken rolled in roomali roti with mint chutney.",
+        "type": "non-veg",
+        "photos": []
+      },
+      {
+        "id": "ff3",
+        "name": "Loaded Paneer Nachos",
+        "price": 280,
+        "desc": "Crispy tortilla chips topped with makhani sauce, paneer chunks, and cheese.",
+        "type": "veg",
+        "photos": []
+      }
+    ],
+    "billingHistory": []
+  },
+  "carousel": [
+    {
+      "id": "c1",
+      "name": "Dum Gosht Biryani",
+      "price": 650,
+      "desc": "Slow-cooked mutton sealed inside a pot — every grain of rice tells a story.",
+      "img": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=1200&q=80"
+    },
+    {
+      "id": "c2",
+      "name": "Butter Chicken",
+      "price": 520,
+      "desc": "Our most beloved — tandoori chicken simmered in rich tomato-cream sauce.",
+      "img": "https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=1200&q=80"
+    },
+    {
+      "id": "c3",
+      "name": "Raan-e-Mehra",
+      "price": 1100,
+      "desc": "Whole leg of lamb marinated 24 hours and slow-roasted — our crown jewel.",
+      "img": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=1200&q=80"
+    },
+    {
+      "id": "c4",
+      "name": "Dal Makhani",
+      "price": 380,
+      "desc": "Black lentils slow-cooked for 18 hours in butter and cream — pure comfort.",
+      "img": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=1200&q=80"
+    },
+    {
+      "id": "c5",
+      "name": "Shahi Paneer",
+      "price": 420,
+      "desc": "Royal cottage cheese in a cashew-saffron gravy fit for a Mughal feast.",
+      "img": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=1200&q=80"
+    },
+    {
+      "id": "c6",
+      "name": "Murgh Malai Seekh",
+      "price": 390,
+      "desc": "Velvety chicken seekh kebab — silky, smoky, and utterly irresistible.",
+      "img": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=1200&q=80"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "name": "Rahul Sharma",
+      "date": "Visited August 2025",
+      "rating": 5,
+      "text": "\"The Dum Gosht Biryani transported me straight to Lucknow. Every grain of rice was infused with flavour.\"",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80"
+    },
+    {
+      "id": "r2",
+      "name": "Priya Menon",
+      "date": "Visited June 2025",
+      "rating": 5,
+      "text": "\"Celebrated our 10th anniversary here. The Shahi Paneer was the best we've ever had — velvety and perfectly spiced.\"",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80"
+    },
+    {
+      "id": "r3",
+      "name": "Aditya Kumar",
+      "date": "Visited July 2025",
+      "rating": 4.5,
+      "text": "\"The Raan-e-Mehra was spectacular — falling-off-the-bone tender. A must-try!\"",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "g1",
+      "url": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+      "alt": "Signature curry platter"
+    },
+    {
+      "id": "g2",
+      "url": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600&q=80",
+      "alt": "Biryani"
+    },
+    {
+      "id": "g3",
+      "url": "https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=600&q=80",
+      "alt": "Butter chicken"
+    },
+    {
+      "id": "g4",
+      "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80",
+      "alt": "Restaurant interior"
+    },
+    {
+      "id": "g5",
+      "url": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=800&q=80",
+      "alt": "Dal makhani"
+    },
+    {
+      "id": "g6",
+      "url": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=600&q=80",
+      "alt": "Tandoor"
+    },
+    {
+      "id": "g7",
+      "url": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80",
+      "alt": "Paneer tikka"
+    },
+    {
+      "id": "g8",
+      "url": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80",
+      "alt": "Seekh kebab"
+    }
+  ]
+}
